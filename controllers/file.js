@@ -17,7 +17,7 @@ var getTar = function (compressionCWD, compressionPath) {
           gzip: true,
           cwd: compressionCWD
         },
-        [compressionPath,"testDir2"]
+        [compressionPath]
       );
       tarStream.on('error', error => { reject(error) })
       tarStream.on('readable', () => {
