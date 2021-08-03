@@ -13,6 +13,6 @@
     "express": "^4.17.1",
     "express-fileupload": "^1.2.0",
     "log4js": "^5.1.0",
-    "tar": "^6.0.5"
+    "tar": "^6.1.2"
   }
 }
